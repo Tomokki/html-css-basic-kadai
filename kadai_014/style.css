@@ -1,0 +1,52 @@
+/* bodyのフォント種類を、「"Arial", "Meiryo", sans-serif」に */
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  /* テキストは全て中央寄せ */
+  text-align: center;
+  /* ルート要素のフォントサイズを20px */
+  font-size: 20px;
+
+}
+
+ /*h1のフォントには、Googleフォント「Josefin Sans」を使用  */
+  .google-fonts {
+    font-family: 'Josefin Sans', sans-serif;
+    
+    /* 20pxにし、h1はその2倍 */
+    font-size: 40px;
+    
+    /* h1の文字間は文字の大きさの1.2倍 */
+    letter-spacing: 1.2em;
+
+    /*h1の下に3px（カラー：rgb(115, 115, 114)）の実線  */
+    border-bottom : solid rgb(115, 115, 114);
+    
+    /* h1に影 */
+    text-shadow: 1px 1px 2px gray;
+    
+  }
+
+  /* 「MY PROFILE」の「M」をスカイブルーに、「P」をピンクにしてください。文字色はスカイブルーをキーワードで、ピンクをrgb(255, 192, 203) */
+  .text-color{
+    color: skyblue;
+  }
+
+  .text-color2{
+    color: pink;
+  }
+
+
+  /* 「名前」「血液型」「好きな食べ物」の見出しにはピンク */
+.h21{
+  color: pink;
+}
+
+/*「生年月日」「趣味」「プログラミングを始めた理由」の見出しにはスカイブルー  */
+.h22{
+  color: skyblue;
+}
+
+/* 「侍太郎」「1990年1月1日」「O型」を太字 */
+.p-bold{
+  font-weight: bold;
+}
